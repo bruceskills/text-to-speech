@@ -1,0 +1,25 @@
+{
+  "name": "text-to-speech",
+  "version": "1.0.0",
+  "author": "Bruno César <bruno@agenciaskills.com.br> (https://github.com/bruceskills)",
+  "description": "Text to speech for Node.js - A small Node.js library that provides a text to speech conversion.",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "bruceskills/text-to-speech",
+  "keywords": [
+    "text",
+    "speech",
+    "Node.js",
+    "JavaScript"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.1",
+    "gtts": "^0.2.1",
+    "open": "^8.4.0",
+    "say": "^0.16.0"
+  }
+}
